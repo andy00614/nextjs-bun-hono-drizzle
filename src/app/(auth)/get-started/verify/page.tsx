@@ -1,8 +1,7 @@
 import { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
-import { VerificationForm } from '@/app/(auth)/get-started/verify/verification-form';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Routes } from '@/lib/routes';
 
 export const metadata: Metadata = {
@@ -26,9 +25,9 @@ export default function VerifyPage({
                     <CardTitle>Verify Your Email</CardTitle>
                     <CardDescription>Almost there!</CardDescription>
                 </CardHeader>
-                <CardContent>
+                {/* <CardContent>
                     <VerificationForm email={email} />
-                </CardContent>
+                </CardContent> */}
             </Card>
         </div>
     );

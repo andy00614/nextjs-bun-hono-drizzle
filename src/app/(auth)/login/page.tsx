@@ -1,16 +1,4 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
-
-import { LoginForm } from '@/app/(auth)/login/login-form';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
-import { Routes } from '@/lib/routes';
 
 export const metadata: Metadata = {
     title: 'Login',
@@ -20,7 +8,7 @@ export const metadata: Metadata = {
 export default function GetStartedPage() {
     return (
         <div className='flex h-full items-center'>
-            <Card className='mx-auto w-[32rem] max-w-lg'>
+            {/* <Card className='mx-auto w-[32rem] max-w-lg'>
                 <CardHeader>
                     <CardTitle>Login</CardTitle>
                     <CardDescription>Welcome back!</CardDescription>
@@ -36,7 +24,8 @@ export default function GetStartedPage() {
                         </Link>
                     </div>
                 </CardFooter>
-            </Card>
+            </Card> */}
+            test
         </div>
     );
 }

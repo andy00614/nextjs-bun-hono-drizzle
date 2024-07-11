@@ -28,11 +28,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
     title: {
-        default: 'Hono x Lucia',
+        default: 'MagApe-Game-Webhook',
         template: '%s',
     },
     keywords: ['hono', 'lucia', 'next.js', 'react'],
-    description: 'Hono x Lucia',
+    description: 'MagApe-Game-Webhook',
     robots: {
         index: true,
         follow: true,
