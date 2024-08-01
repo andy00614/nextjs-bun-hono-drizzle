@@ -43,6 +43,7 @@ specifiers:
   eslint-config-prettier: ^9.1.0
   eslint-plugin-tailwindcss: ^3.17.4
   eslint-plugin-unused-imports: ^3.2.0
+  framer-motion: ^11.3.19
   hono: 4.4.8
   input-otp: ^1.2.4
   jiti: ^1.21.6
@@ -94,6 +95,7 @@ dependencies:
   class-variance-authority: 0.7.0
   clsx: 2.1.1
   drizzle-orm: 0.31.4_7t5gkdhj4sxvqn6pmvg32ljjba
+  framer-motion: 11.3.19_nnrd3gsncyragczmpvfhocinkq
   hono: 4.4.8
   input-otp: 1.2.4_nnrd3gsncyragczmpvfhocinkq
   lucia: 3.2.0
@@ -6979,6 +6981,25 @@ packages:
       tslib: 2.6.3
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
+    dev: false
+
+  /framer-motion/11.3.19_nnrd3gsncyragczmpvfhocinkq:
+    resolution: {integrity: sha512-+luuQdx4AsamyMcvzW7jUAJYIKvQs1KE7oHvKkW3eNzmo0S+3PSDWjBuQkuIP9WyneGnKGMLUSuHs8OP7jKpQg==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
+      tslib: 2.6.3
     dev: false
 
   /fs-monkey/1.0.6:
