@@ -28,11 +28,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
     title: {
-        default: 'MagApe-Game-Webhook',
+        default: 'magNext',
         template: '%s',
     },
     keywords: ['hono', 'lucia', 'next.js', 'react'],
-    description: 'MagApe-Game-Webhook',
+    description: 'magNext',
     robots: {
         index: true,
         follow: true,

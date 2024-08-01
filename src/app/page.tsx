@@ -11,7 +11,7 @@ export default async function Page() {
     if (!user) {
         return (
             <div className='container flex h-full flex-col items-center justify-center gap-4'>
-                <h1 className='text-4xl font-semibold'>MagApe-Game-Webhook</h1>
+                <h1 className='text-4xl font-semibold'>Mag App Start(MAS)</h1>
                 <ThemeToggle />
                 <div className='flex items-center gap-4'>
                     <Button asChild className='w-28'>
@@ -27,7 +27,7 @@ export default async function Page() {
 
     return (
         <div className='container flex h-full flex-col items-center justify-center gap-4'>
-            <h1 className='text-4xl font-semibold'>MagApe-Game-Webhook</h1>
+            <h1 className='text-4xl font-semibold'>magNext</h1>
             <ThemeToggle />
             <form action={logout}>
                 <Button>Logout</Button>
